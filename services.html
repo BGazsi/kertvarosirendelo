@@ -1,5 +1,7 @@
 <html>
 <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
     <link href="./style.css" rel="stylesheet" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -8,8 +10,34 @@
 </head>
 <body>
 <div>
-    <header>
-
+    <header class="main-header">
+        <img src="header-logo.svg" alt="Kertvárosi Állatorvosi Rendelő és Állatpatika">
+        <h1>Kertvárosi Állatorvosi Rendelő és <br /> Állatpatika</h1>
+        <ul>
+            <li>
+                <a href="index.html">
+                    Főoldal
+                </a>
+            </li>
+            <li>
+                <a href="about.html">
+                    Bemutatkozás
+                </a>
+            </li>
+            <li class="selected">
+                <a href="services.html">
+                    Szolgáltatásaink
+                </a>
+            </li>
+            <li>
+                <a href="contact.html">
+                    Kapcsolat
+                </a>
+            </li>
+            <li>
+                <a href="tel:+36307202519" class="btn btn-primary">Időpontfoglalás</a>
+            </li>
+        </ul>
     </header>
     <main>
         <div class="main-banner">
@@ -35,7 +63,225 @@
                 </p>
 
                 <div class="row">
-                    <div class="col"></div>
+                    <div class="col">
+                        <section class="service-topic">
+                            <h3>
+                                Prevenció
+                            </h3>
+                            <div class="service-list-item">
+                                <strong>
+                                    Oltások
+                                </strong>
+                                <p>
+                                    Veszettség elleni oltás
+                                </p>
+                                <p>
+                                    Fertőző betegségek elleni védőoltások
+                                </p>
+                                <strong>
+                                    Parazita ellenes kezelések
+                                </strong>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="col">
+                        <section class="service-topic">
+                            <h3>
+                                Betegellátás, konzultáció
+                            </h3>
+                            <div class="service-list-item">
+                                <strong>
+                                    Sürgősségi betegellátás
+                                </strong>
+                            </div>
+                            <div class="service-list-item">
+                                <strong>
+                                    Ambuláns betegellátás
+                                </strong>
+                            </div>
+                            <div class="service-list-item">
+                                <strong>
+                                    Konzultáció
+                                </strong>
+                            </div>
+                            <div class="service-list-item">
+                                <strong>
+                                    Nyulak, kisemlősök, rágcsálók, vadászgörények ellátása
+                                </strong>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="col">
+                        <section class="service-topic">
+                            <h3>
+                                Adminisztráció
+                            </h3>
+                            <div class="service-list-item">
+                                <strong>
+                                    Oltási könyv kiállítása
+                                </strong>
+                            </div>
+                            <div class="service-list-item">
+                                <strong>
+                                    Microchip beültetés
+                                </strong>
+                            </div>
+                            <div class="service-list-item">
+                                <strong>
+                                    Állatútlevél kiállítása
+                                </strong>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col">
+                        <section class="service-topic">
+                            <h3>
+                                Kiegészítő vizsgálatok
+                            </h3>
+                            <div class="service-list-item">
+                                <strong>
+                                    Digitális Röntgenfelvétel
+                                </strong>
+                                <strong>
+                                    Hasüregi Ultrahangos vizsgálat
+                                </strong>
+                                <p>
+                                    Macskaleukózis (FeLV), macska AIDS (FIV)
+                                </p>
+                                <p>
+                                    Parvovírusos bélgyulladás, Coronavírusos bélgyulladás, Giradia fertőzöttség okozta bélgyulladás
+                                </p>
+                                <p>
+                                    Szívférgességre irányuló gyorstesztek (vastagcsepp, ELISA)
+                                </p>
+                                <strong>
+                                    Külsős laboratóriumi vizsgálatok
+                                </strong>
+                                <p>
+                                    Vérvizsgálat
+                                </p>
+                                <p>
+                                    Bélsár- és vizeletvizsgálat
+                                </p>
+                                <p>
+                                    Baktérium- és gombatenyésztés
+                                </p>
+                                <p>
+                                    Citológiai és szövettani vizsgálatok
+                                </p>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="col">
+                        <section class="service-topic">
+                            <h3>
+                                Szájhigiéniai kezelések
+                            </h3>
+                            <div class="service-list-item">
+                                <strong>
+                                    Fogkőeltávolítás
+                                </strong>
+                            </div>
+                            <div class="service-list-item">
+                                <strong>
+                                    Foghúzás
+                                </strong>
+                            </div>
+                            <div class="service-list-item">
+                                <strong>
+                                    Perzisztáló tejfogak eltávolítása
+                                </strong>
+                            </div>
+                            <h3>
+                                Szaporodásbiológia
+                            </h3>
+                            <div class="service-list-item">
+                                <strong>
+                                    Ivartalanítás
+                                </strong>
+                            </div>
+                            <div class="service-list-item">
+                                <strong>
+                                    Császármetszés
+                                </strong>
+                            </div>
+                            <div class="service-list-item">
+                                <strong>
+                                    Ultrahangos vemhesség megállapítás
+                                </strong>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="col">
+                        <section class="service-topic">
+                            <h3>
+                                Lágysebészeti beavatkozások
+                            </h3>
+                            <div class="service-list-item">
+                                <div class="service-list-item">
+                                    <strong>
+                                        Diagnosztikai laparotomia
+                                    </strong>
+                                </div>
+                                <div class="service-list-item">
+                                    <strong>
+                                        Traumás sérülések ellátása
+                                    </strong>
+                                </div>
+                                <div class="service-list-item">
+                                    <strong>
+                                        Bőrképletek és daganatok eltávolítása
+                                    </strong>
+                                    <p>
+                                        Emlődaganatok eltávolítása
+                                    </p>
+                                </div>
+                                <div class="service-list-item">
+                                    <strong>
+                                        Gennyes méhgyulladás műtéti ellátása
+                                    </strong>
+                                </div>
+                                <div class="service-list-item">
+                                    <strong>
+                                        Bélelzáródás, bélcsavarodás műtéti megoldása
+                                    </strong>
+                                </div>
+                                <div class="service-list-item">
+                                    <strong>
+                                        Lágyéksérv műtéti ellátása
+                                    </strong>
+                                </div>
+                                <div class="service-list-item">
+                                    <strong>
+                                        Hólyagmetszés
+                                    </strong>
+                                </div>
+                                <div class="service-list-item">
+                                    <strong>
+                                        Prominens orrháti redő korrekciója
+                                    </strong>
+                                </div>
+                                <div class="service-list-item">
+                                    <strong>
+                                        Entropium, illetve egyéb szemhéj korrekciók
+                                    </strong>
+                                </div>
+                                <div class="service-list-item">
+                                    <strong>
+                                        Harder-mirigy repozíció
+                                    </strong>
+                                </div>
+                                <div class="service-list-item">
+                                    <strong>
+                                        Farkaskarom eltávolítás
+                                    </strong>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
                 </div>
             </div>
         </section>
