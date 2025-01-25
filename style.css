@@ -1,0 +1,188 @@
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+.btn-primary {
+    background-color: #AEC534;
+}
+
+h1 {
+    font-weight: 400;
+}
+
+.btn {
+    border-radius: 36px;
+    border: none;
+    padding: 1rem 1.5rem;
+}
+
+section:not(.section-1) {
+    margin-top: 4rem;
+}
+
+.section-1 {
+    background-color: #F3F9FF;
+    height: 5rem;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.section-1:before {
+    content: "";
+    display: block;
+    z-index: 400000;
+    position: relative;
+    top: -30px;
+    background-image: url(tear-bottom.png);
+    height: 30px;
+}
+
+.section-1:after {
+    content: "";
+    display: block;
+    z-index: 400000;
+    position: relative;
+    bottom: -25px;
+    background-image: url(tear-top.png);
+    height: 30px;
+}
+
+.carousel-text {
+    position: absolute;
+    color: white;
+    z-index: 9000;
+    top: 100%;
+    margin-top: -35%;
+    width: 30%;
+}
+
+@media (max-width: 700px) {
+    .carousel-text {
+        width: 80%;
+    }
+}
+
+@media (max-width: 767px) {
+    .carousel-text h1 {
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 1200px) {
+    .carousel-text h1 {
+        font-size: 1.5rem;
+    }
+}
+
+.section-title {
+    font-size: 12px;
+    text-transform: uppercase;
+    margin: 1rem 0 2rem;
+}
+
+.section-subtitle {
+    font-size: 32px;
+}
+
+ul {
+    margin-top: 1rem;
+    line-height: 2rem;
+    list-style: none;
+    padding-left: 0;
+}
+
+li {
+    display: flex;
+}
+
+li:before {
+    align-self: center;
+    content: url("checkmark.svg");
+    margin-right: 0.5rem;
+}
+
+.section-2 {
+    background-color: #F3F9FF;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.section-2:before {
+    content: "";
+    display: block;
+    z-index: 400000;
+    position: relative;
+    top: -30px;
+    background-image: url(tear-bottom.png);
+    height: 30px;
+}
+
+.section-2:after {
+    content: "";
+    display: block;
+    z-index: 400000;
+    position: relative;
+    bottom: -30px;
+    background-image: url(tear-bottom-green.png);
+    height: 30px;
+}
+
+footer {
+    height: 300px;
+    background: #6C7F03;
+}
+
+strong {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+a.link {
+    color: #AEC534;
+    display: flex;
+}
+
+a.link:before {
+    content: url("caret.svg");
+    align-self: center;
+    margin-right: 0.5rem;
+}
+
+.card {
+    color: white;
+    background-color: #AEC534;
+    height: 100%;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+}
+
+.card-title {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.card-description {
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.card.card--inverse {
+    color: #AEC534;
+    background-color: white;
+}
+
+.main-banner {
+    max-height: 650px;
+    overflow: hidden;
+}
+
+.section-3:after {
+    content: "";
+    display: block;
+    z-index: 400000;
+    position: relative;
+    bottom: -30px;
+    background-image: url(tear-bottom-green-white.png);
+    height: 30px;
+}
