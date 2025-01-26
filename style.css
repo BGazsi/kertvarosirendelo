@@ -73,7 +73,7 @@ section:not(.section-1) {
     display: block;
     z-index: 100;
     position: relative;
-    bottom: -2px;
+    bottom: -25px;
     background-image: url(tear-top.png);
     height: 30px;
 }
@@ -85,6 +85,12 @@ section:not(.section-1) {
     top: 100%;
     margin-top: -35%;
     width: 30%;
+}
+
+@media (max-width: 1400px) {
+    .section-1:after {
+         bottom: -2px;
+     }
 }
 
 @media (max-width: 1200px) {
