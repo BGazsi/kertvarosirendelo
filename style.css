@@ -235,8 +235,8 @@ a.link:before {
 
 .main-header ul li {
     color: white;
-    margin-left: 0.5rem;
-    padding: 0 0.5rem;
+    margin-left: 1rem;
+    padding: 0;
     border:  5px solid transparent;
 }
 
@@ -333,8 +333,29 @@ button.navbar-toggler, .navbar-toggler:focus {
     .main-header img {
         height: 2rem;
     }
+
+    .main-header h1 {
+        display: none;
+    }
 }
 @media (max-width: 991px) {
+    .main-header {
+        background: #333;
+        height: 4rem;
+    }
+
+    .main-header .container-fluid {
+        background: #333;
+    }
+
+    .main-header ul {
+        height: auto;
+    }
+
+    .main-header .btn {
+        margin-top: 1rem;
+    }
+
     main {
         margin-top: 4rem;
     }
@@ -358,27 +379,6 @@ button.navbar-toggler, .navbar-toggler:focus {
 
     .section-1:after {
         display: none;
-    }
-
-    .main-header {
-        background: #333;
-        height: 4rem;
-    }
-
-    .main-header .container-fluid {
-        background: #333;
-    }
-
-    .main-header h1 {
-        display: none;
-    }
-
-    .main-header ul {
-        height: auto;
-    }
-
-    .main-header .btn {
-        margin-top: 1rem;
     }
 }
 
