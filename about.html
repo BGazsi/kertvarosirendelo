@@ -10,46 +10,55 @@
 </head>
 <body>
 <div>
-    <header class="main-header">
-        <img src="header-logo.svg" alt="Kertvárosi Állatorvosi Rendelő és Állatpatika">
-        <h1>Kertvárosi Állatorvosi Rendelő és <br /> Állatpatika</h1>
-        <ul>
-            <li>
-                <a href="index.html">
-                    Főoldal
-                </a>
-            </li>
-            <li class="selected">
-                <a href="about.html">
-                    Bemutatkozás
-                </a>
-            </li>
-            <li>
-                <a href="services.html">
-                    Szolgáltatásaink
-                </a>
-            </li>
-            <li>
-                <a href="contact.html">
-                    Kapcsolat
-                </a>
-            </li>
-            <li>
-                <a href="tel:+36301234567" class="btn btn-primary">Időpontfoglalás</a>
-            </li>
-        </ul>
+    <header class="main-header navbar navbar-expand-xl navbar-dark">
+        <div class="container-fluid">
+            <div class="navbar-brand">
+                <img src="header-logo.svg" alt="Kertvárosi Állatorvosi Rendelő és Állatpatika">
+                <h1>Kertvárosi Állatorvosi Rendelő és <br /> Állatpatika</h1>
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a href="index.html">
+                            Főoldal
+                        </a>
+                    </li>
+                    <li class="nav-item selected">
+                        <a href="about.html">
+                            Bemutatkozás
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="services.html">
+                            Szolgáltatásaink
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="contact.html">
+                            Kapcsolat
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="tel:+36301234567" class="btn btn-primary">Időpontfoglalás</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
     </header>
     <main>
         <div class="main-banner">
-            <img src="about-banner.png" alt="about">
+            <img src="about-banner.jpg" alt="about">
         </div>
         <section class="section-1">
             <div class="container">
                 <div class="row">
-                    <div class="col text-start">8900, Zalaegerszeg, Átalszegett utca 1.</div>
-                    <div class="col text-center">92/311-092</div>
-                    <div class="col text-center">Lorem ipsum dolor am</div>
-                    <div class="col text-end">Lorem ipsum dolor am</div>
+                    <div class="col-sm-6 col-md-3 text-start">8900, Zalaegerszeg, Átalszegett utca 1.</div>
+                    <div class="col-sm-6 col-md-3 text-center">92/311-092</div>
+                    <div class="col-sm-6 col-md-3 text-center">Lorem ipsum dolor am</div>
+                    <div class="col-sm-6 col-md-3 text-end">Lorem ipsum dolor am</div>
                 </div>
             </div>
         </section>
@@ -72,22 +81,22 @@
             <div class="container">
                 <h2>Orvosaink</h2>
                 <div class="row">
-                    <div class="col">
-                        <img src="https://placecats.com/400/400" alt="alt">
+                    <div class="col-md-4">
+                        <img src="https://placecats.com/400/400" alt="Dr. Füredi Tamás" class="img-fluid">
                         <h3 class="mt-3">Dr. Füredi Tamás</h3>
                         <p>
                             1962-ben születtem Zalaegerszegen. 1981-ben érettségiztem a Zrínyi Miklós Gimnáziumban. Állatorvos doktori diplomámat 1987-ben szereztem az Állatorvostudományi Egyetemen, Budapesten. Ezután Muraszemenyei körzetet láttam el 2 éven keresztül, majd 13 évig Zalaszentbalázson vegyes praxist folytattam. 2003-tól munkámat teljes egészében a kisállatgyógyászat fedi le.
                         </p>
                     </div>
-                    <div class="col">
-                        <img src="https://placecats.com/400/400" alt="alt">
+                    <div class="col-md-4">
+                        <img src="https://placecats.com/400/400" alt="Dr. Füredi Balázs" class="img-fluid">
                         <h3 class="mt-3">Dr. Füredi Balázs</h3>
                         <p>
                             1993-ban születtem Zalaegerszegen. Zrínyi Miklós Gimnáziumban érettségiztem 2013-ban. Állatorvos doktori diplomám kézhez vétele után munkámat Pécsen kezdtem el Dr. Mésző Zoltán állatorvosi rendelőjében, ahol rengeteg tudással gyarapodtam. 2021 januárjától dolgozom édesapámmal együtt az állatorvosi rendelőben.
                         </p>
                     </div>
-                    <div class="col">
-                        <img src="https://placecats.com/400/400" alt="alt">
+                    <div class="col-md-4">
+                        <img src="https://placecats.com/400/400" alt="Dr. Támer Dorka" class="img-fluid">
                         <h3 class="mt-3">Dr. Támer Dorka</h3>
                         <p>
                             Szekszárdon születtem és jártam gimnáziumba. Az egyetemi tanulmányaim során nagy hangsúlyt fektettem a kisállatok ellátására irányuló gyakorlati tapasztalatok elsajátítására. Állatorvos doktori diplomámat 2020 februárjában vettem át, majd márciustól Pécsen helyezkedtem el, ahol rengeteg tapasztalattal gazdagodtam. 2021 januárjától Zalaegerszegen álltam munkába.
